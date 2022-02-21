@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+# Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+在跟著教學用 React 做了 Tic Tac Toe 之後，我又用計算機來練習，剛好之前軟實的課程有一個 lab 是要把助教給的計算機給寫完，雖然這次直接從頭手刻，但也不錯，順便複習 HTML 跟 CSS。
 
-## Available Scripts
+因為要有一些跟網頁的互動，JS 才派得上用場，所以計算機算是相當不錯的練習，雖然做到後面處理計算機 syntax 的時間比寫 React 還多，但也算是有練習到不少東西，不過感覺有兩個大問題。
 
-In the project directory, you can run:
+一個是 code 還是過於冗長，應該有很多部分可以換個寫法來節省不少行數，但也沒人幫我看，所以就先這樣吧。
 
-### `yarn start`
+另外一個是感覺有很多地方的寫法還是"很不 React"，像是我把計算機上面顯示目前算式的地方用 useState 來寫，我覺得很棒。我也把數字、運算元(中文是這樣翻嗎)，還有上面顯示算式的地方拉出去寫成 components，這個也很棒，這兩個都是在教學裡面用到的技巧。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+但後面很多地方還是習慣用之前的思維跟寫法去寫，就是"很 C"的思路，這樣不太好，應該要多試著用 JS 跟 React 的想法來做。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+不過算是我自主用 React 開發的第一個小小小小 side project，還滿有成就感的，前前後後大概花了 6.7 個小時，其中又有大概 2/3 的時間在耍廢。
